@@ -1,0 +1,42 @@
+<table style="width:100%">
+    <tr>
+        <th>Submenu 1</th>
+        <th>Submenu 2</th>
+        <th>Submenu 3</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>
+                    <h2><a [routerLink]="['/submenu1', 'add']" routerLinkActive=”active”>Submenu 1B</a></h2>
+                </li>
+                <li>
+                    <h2><a routerLink="/submenu1/delete" routerLinkActive=”active”>Submenu 1C</a></h2>
+                </li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>
+                    <h2><a routerLink="/submenu2" routerLinkActive=”active”>Submenu 2a</a></h2>
+                </li>
+                <li>
+                    <h2><a routerLink="/submenu2/add" routerLinkActive=”active”>Submenu 2B</a></h2>
+                </li>
+                <li>
+                    <h2><a routerLink="/submenu2/delete" routerLinkActive=”active”>Submenu 2C</a></h2>
+                </li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>
+                    <h2><a routerLink="/submenu3/add" routerLinkActive=”active”>Submenu 3B</a></h2>
+                </li>
+                <li>
+                    <h2><a routerLink="/submenu3/delete" routerLinkActive=”active”>Submenu 3C</a></h2>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
